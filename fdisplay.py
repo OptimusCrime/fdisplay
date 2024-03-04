@@ -150,7 +150,7 @@ def main():
     # The last line contains the formatted output
     displays = parse_output(data[-1])
 
-    if len(displays) != 2 and len(display_ids) != 3:
+    if len(displays) != 2 and len(displays) != 3:
         print('Script only support one or two external monitors')
         return
 
